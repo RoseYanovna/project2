@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+	<title>index</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container max">
+			<nav class="menu">
+				<a href="#logo" class="logo">
+					<img src="logo.png" alt="" />
+				</a>
+				<ul class="main-menu">
+					<!-- <img src="stars.svg" alt="" class="menu-img"> -->
+					<li class="menu-list">
+						<a href="" class="menu-text">Start your design</a>
+					</li>
+					<li class="menu-list">
+						<a href="#allproducts" class="menu-text">All products</a>
+					</li>
+					<li class="menu-list">
+						<a href="" class="menu-text">Inspiration</a>
+					</li>
+					<li class="menu-list">
+						<div class="dropdown">
+							<a class="dropbtn" onclick="myFunction()">About <i></i></a>
+							<div class="dropdown-content" id="myDropdown">
+								<a href="#">Link 1</a>
+								<a href="#">Link 2</a>
+								<a href="#">Link 3</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="menu-third">
+					<a href="" class="menu-text">Account</a>
+					<!-- <img src="cart.png" alt=""> -->
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="section-intro">
+			<div class="container">
+				<div class="intro-wrap">
+					<div class="intro-text">
+						<h1 class="h1">
+							Fast and easy custom boxes your customers will love
+						</h1>
+						<p class="intro-desc">
+							Fastest turnaround. Best prices instantly. Dieline design help
+							available.
+						</p>
+						<a href="" class="intro-button">Start your design</a>
+					</div>
+					<div class="intro-img">
+						<img src="intro-img.png" alt="" class="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-partners">
+			<div class="container">
+				<div class="partners-wrap">
+					<div class="partner">
+						<img src="partner1.png" alt="" />
+						<p class="partner-text">Shopify Integrated</p>
+					</div>
+					<div class="partner">
+						<img src="partner2.png" alt="" />
+						<p class="partner-text">Amazon Certified</p>
+					</div>
+					<div class="partner">
+						<img src="partner3.png" alt="" />
+						<p class="partner-text">Eco-Friendly</p>
+					</div>
+               
+				</div>
+			</div>
+		</section>
+
+		<section class="section-products">
+			<div class="container">
+				<div id="allproducts" class="product-intro">
+					<p>Products you can customize</p>
+					<a href="#allproducts" class="">Browse all products</a>
+				</div>
+				<div class="products-list">
+					<div class="product">
+						<img src="product1.png" alt="" />
+						<p class="product__name">Custom Carton Boxes</p>
+						<div class="product__info">
+							<p class="product__desc">
+								Create a clean brand presentation with this custom carton box.
+							</p>
+							<p class="product__price">Starting at: $10.44/unit</p>
+						</div>
+					</div>
+
+					<div class="product">
+						<img src="product2.png" alt="" />
+						<p class="product__name">Custom Boxes</p>
+						<div class="product__info">
+							<p class="product__desc">
+								A stylish and strong corrugated cardboard box.
+							</p>
+							<p class="product__price"></p>
+						</div>
+					</div>
+
+					<div class="product">
+						<img src="product3.png" alt="" />
+						<p class="product__name">Custom Poly Mailers</p>
+						<div class="product__info">
+							<p class="product__desc">
+								A fully custom high quality self sealing poly mailer.
+							</p>
+							<p class="product__price"></p>
+						</div>
+					</div>
+
+					<div class="product">
+						<img src="product4.png" alt="" />
+						<p class="product__name">Custom Tape</p>
+						<div class="product__info">
+							<p class="product__desc">
+								High quality custom tape to seal your shipping boxes during
+								delivery.
+							</p>
+							<p class="product__price">Starting at: $12.16/unit</p>
+						</div>
+					</div>
+
+					<div class="product">
+						<img src="product5.png" alt="" />
+						<p class="product__name">Custom Stickers</p>
+						<div class="product__info">
+							<p class="product__desc">
+								Add personality to your packages with custom stickers.
+							</p>
+							<p class="product__price">Starting at: $0.41/unit</p>
+						</div>
+					</div>
+
+					<div class="product">
+						<img src="product6.png" alt="" />
+						<p class="product__name">Custom Tissue Paper</p>
+						<div class="product__info">
+							<p class="product__desc">
+								The perfect addition to branding your package.
+							</p>
+							<p class="product__price">Starting at: $6.54/unit</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-end">
+					<p>Need unbranded stock items?</p>
+					<a href="" class="">Shop stock</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-procces">
+			<div class="container">
+				<div class="procces-back">
+					<h2>Fast and easy custom boxes your customers will love</h2>
+					<div class="procces-list">
+						<div class="procces">
+							<img src="procces1.png" alt="" />
+							<div class="procces__info">
+								<p class="procces__name">You Order</p>
+								<p class="procces__desc">
+									Design and order boxes in a few clicks.
+								</p>
+							</div>
+						</div>
+
+						<div class="procces">
+							<img src="procces2.png" alt="" />
+							<div class="procces__info">
+								<p class="procces__name">We Proof</p>
+								<p class="procces__desc">
+									Approve your designs before production.
+								</p>
+							</div>
+						</div>
+
+						<div class="procces">
+							<img src="procces3.png" alt="" />
+							<div class="procces__info">
+								<p class="procces__name">We Print & Ship</p>
+								<p class="procces__desc">
+									Your order gets printed and shipped with tracking.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="procces-end">
+						<a href="" class="">Start your design</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-advantage">
+			<div class="container">
+				<div class="advantage-wrap">
+					<h3 class="h3">The Arka advantage</h3>
+					<div class="advantage-list">
+						<div class="advantage">
+							<img src="advantage1.png" alt="" />
+							<div class="advantage__info">
+								<div class="advantage__name">Eco-Friendly Material</div>
+								<div class="advantage__desc">
+									Order as little as 10, giving you the lowest minimums in the
+									industry at the best prices.
+								</div>
+							</div>
+						</div>
+
+						<div class="advantage">
+							<img src="advantage2.png" alt="" />
+							<div class="advantage__info">
+								<div class="advantage__name">Full Outside Print</div>
+								<div class="advantage__desc">
+									Design what you want - no extra cost! Prices include 100%
+									exterior print, change design whenever!
+								</div>
+							</div>
+						</div>
+
+						<div class="advantage">
+							<img src="advantage3.png" alt="" />
+							<div class="advantage__info">
+								<div class="advantage__name">Proofing</div>
+								<div class="advantage__desc">
+									After you order, our internal designers help make sure your
+									designs are 100% ready for printing!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-request">
+			<div class="container">
+				<div class="request-back">
+					<div class="request-list">
+						<div class="request-wrap">
+							<div class="request">
+								<img src="request1.png" alt="" />
+								<div class="request__name">Couldn't find a size you need?</div>
+								<div class="request__desc">
+									We’ll work directly with you to create a fully branded
+									packaging system.
+								</div>
+								<a href="#request" class="request__button">Request a quote</a>
+							</div>
+						</div>
+						<div class="request-wrap">
+							<div class="request">
+								<img src="request2.png" alt="" />
+								<div class="request__name">Need a free dieline template?</div>
+								<div class="request__desc">
+									Let us know what size you need and we'll email an Adobe
+									Illustrator dieline to you within 3-4 business days.
+								</div>
+								<a href="#request" class="request__button">Request dieline</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-feedback">
+			<div class="container">
+				<div class="feedback-wrap">
+					<h3 class="h3 h4">Merchants love Arka</h3>
+					<div class="feedback-back">
+						<div class="feedback-grade">
+							<div class="feedback">
+								<img src="google.svg" alt="" class="google" />
+								<img src="grade.svg" alt="" class="shopify" />
+							</div>
+                     
+							<div class="feedback">
+								<img src="shopify.svg" alt="" class="google" />
+								<img src="grade.svg" alt="" class="shopify" />
+							</div>
+						</div>
+
+						<div class="feed-reverse">
+							<div class="feedback-second">
+								<img src="pic1.png" alt="" / class="feedback-img">
+
+								<div class="autor">
+									<p class="autor__quote">
+										“Arka’s team is super fast, knowledgeable, and easy to work
+										with - highly recommended!”
+									</p>
+									<div class="autor-wrap">
+										<img src="autor1.png" alt="" class="autor__photo" />
+										<div class="autor__info">
+											<p class="autor__name">Jesse</p>
+											<p class="autor__name autor__post">
+												Subscription Catalyst
+											</p>
+										</div>
+										<a href="#post" class="autor__btn">Their story</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="feedback-second">
+								<img src="pic2.png" alt="" />
+
+								<div class="autor">
+									<p class="autor__quote">
+										“I really like Arka because it’s a really nice box, I’ve
+										gotten a lot of compliments on.
+									</p>
+									<div class="autor-wrap">
+										<img src="autor2.png" alt="" class="autor__photo" />
+										<div class="autor__info">
+											<p class="autor__name">Leslie</p>
+											<p class="autor__name autor__post">Burgundy Fox</p>
+										</div>
+										<a href="#post" class="autor__btn">Their story</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="feedback-second">
+								<img src="pic3.png" alt="" />
+
+								<div class="autor">
+									<p class="autor__quote">
+										“I love how easily it was to customize the box, and you guys
+										were more affordable.”
+									</p>
+									<div class="autor-wrap">
+										<img src="autor3.png" alt="" class="autor__photo" />
+										<div class="autor__info">
+											<p class="autor__name">Anthony</p>
+											<p class="autor__name autor__post">Lipstick Junkie</p>
+										</div>
+										<a href="#post" class="autor__btn">Their story</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-total">
+			<div class="container">
+				<div class="total-wrap">
+					<h3 class="h3 h4">Let`s get to it</h3>
+					<div class="total-btn">
+						<a href="">Start your design</a>
+						<a href="">Browse all products</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-wrap">
+				<img src="logo.png" alt="" />
+				<div class="footer-items">
+					<a href="">Custom Design</a>
+					<a href="">All Products</a>
+					<a href="">Inspiration</a>
+					<a href="">Sustainability</a>
+					<a href="">Affiliate Program</a>
+					<a href="">Request Custom Quote</a>
+					<a href="">Request Dieline</a>
+				</div>
+
+				<div class="footer-items">
+					<a href="">About Us</a>
+					<a href="">Blog</a>
+					<a href="">Partners</a>
+					<a href="">Contact Us</a>
+					<a href="">FAQ</a>
+					<a href="">Terms & Conditions</a>
+				</div>
+
+				<div class="footer-items">
+					<a href="">Shopify App</a>
+					<a href="">14 Day Free Shopify Trial</a>
+					<a href="">BigCommerce</a>
+					<div class="social-app">
+						<a href="#app"><img src="facebook.png" alt=""></a>
+						<a href="#app"><img src="twitter.png" alt=""></a>
+						<a href="#app"><img src="instagram.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="form">
+					<p>Get exclusive offers and tips.</p>
+					<input type="email" placeholder="Your email">
+					<button type="submit">Join instantly</button>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+</body>
+
+<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function (e) {
+		if (!e.target.matches('.dropbtn')) {
+			var myDropdown = document.getElementById("myDropdown");
+			if (myDropdown.classList.contains('show')) {
+				myDropdown.classList.remove('show');
+			}
+		}
+	}
+</script>
+
+</html>
